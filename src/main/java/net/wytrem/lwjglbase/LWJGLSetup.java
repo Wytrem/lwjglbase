@@ -88,13 +88,12 @@ public class LWJGLSetup
                     {
                         System.out.println("Natives already exist.");
                     }
-
                 }
                 else if (os == LWJGLUtil.PLATFORM_MACOSX)
                 {
                     if (!new File(nativesFolder.getPath(), "openal.dylib").exists())
                     {
-                        extractFromClasspath("liblwjgl.jnilib", nativesFolder);
+                        extractFromClasspath("liblwjgl.dylib", nativesFolder);
                         extractFromClasspath("openal.dylib", nativesFolder);
                     }
                     else
