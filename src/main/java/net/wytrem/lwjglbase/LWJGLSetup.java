@@ -95,7 +95,6 @@ public class LWJGLSetup
                     if (!new File(nativesFolder.getPath(), "openal.dylib").exists())
                     {
                         extractFromClasspath("liblwjgl.jnilib", nativesFolder);
-                        extractFromClasspath("liblwjgl-osx.jnilib", nativesFolder);
                         extractFromClasspath("openal.dylib", nativesFolder);
                     }
                     else
