@@ -59,7 +59,7 @@ public class LWJGLSetup
                 int os = LWJGLUtil.getPlatform();
                 if (os == LWJGLUtil.PLATFORM_WINDOWS)
                 {
-                    if (!new File(nativesFolder.getPath() + "/jinput-dx8_64.dll").exists())
+                    if (!new File(nativesFolder.getPath(), "jinput-dx8_64.dll").exists())
                     {
                         extractFromClasspath("jinput-dx8_64.dll", nativesFolder);
                         extractFromClasspath("jinput-dx8.dll", nativesFolder);
@@ -77,7 +77,7 @@ public class LWJGLSetup
                 }
                 else if (os == LWJGLUtil.PLATFORM_LINUX)
                 {
-                    if (!new File(nativesFolder.getPath() + "/liblwjgl.so").exists())
+                    if (!new File(nativesFolder.getPath(), "liblwjgl.so").exists())
                     {
                         extractFromClasspath("liblwjgl.so", nativesFolder);
                         extractFromClasspath("liblwjgl64.so", nativesFolder);
@@ -92,7 +92,7 @@ public class LWJGLSetup
                 }
                 else if (os == LWJGLUtil.PLATFORM_MACOSX)
                 {
-                    if (!new File(nativesFolder.getPath() + "/openal.dylib").exists())
+                    if (!new File(nativesFolder.getPath(), "openal.dylib").exists())
                     {
                         extractFromClasspath("liblwjgl.jnilib", nativesFolder);
                         extractFromClasspath("liblwjgl-osx.jnilib", nativesFolder);
