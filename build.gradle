@@ -1,0 +1,38 @@
+
+// Apply the java plugin to add support for Java
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+
+
+// Group name
+group = 'net.wytrem'
+// Version
+version = '0.0.1'
+archivesBaseName = 'lwjglbase'
+
+// Lors de la compilation avec Java, on définit l'encodage à UTF-8
+compileJava.options.encoding = 'UTF-8'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    mavenCentral()
+}
+
+// In this section you declare the dependencies for your production and test code
+dependencies {
+    // The production code uses the SLF4J logging API at compile time
+    compile 'org.slf4j:slf4j-api:1.7.12'
+    compile 'org.slf4j:slf4j-jdk14:1.7.12'
+
+    compile 'org.lwjgl.lwjgl:lwjgl:2.9.3'
+    compile 'org.lwjgl.lwjgl:lwjgl_util:2.9.3'
+    compile 'org.lwjgl.lwjgl:lwjgl-platform:2.9.3'
+}
+
+jar {
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    manifest {
+        attributes "Main-Class": "net.wytrem.lwjglbase.LwjglBase"
+    }
+}
