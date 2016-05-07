@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/58697792617f38bf86d8e26bc004aac505e516a9/slf4j-api-1.7.12-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.12/8e20852d05222dc286bf1c71d78d0531e177c317/slf4j-api-1.7.12.jar"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-jdk14/1.7.12/bab9a3bd809632edfcb2bda08b6966abc1d3928d/slf4j-jdk14-1.7.12-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-jdk14/1.7.12/aec22f0b809be5a94afb4a7fe3a239c0c0eee013/slf4j-jdk14-1.7.12.jar"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.3/34682f36cee6cded40df9829bb352f2bdce5b14e/lwjgl-2.9.3-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl/2.9.3/3df168ac74e4a8c96562cdff24ad352e255bf89c/lwjgl-2.9.3.jar"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.3/ca58b77b6393794ca34e12b32e9c6d9c912acb3/lwjgl_util-2.9.3-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl_util/2.9.3/751f06b62424da056954c67288fd5c494431e350/lwjgl_util-2.9.3.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.3/fbc2afb3e288578e9942578decb6291a490549a0/lwjgl-platform-2.9.3-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.3/b1eafe80093381c56415731e1d64279e6140bcd0/lwjgl-platform-2.9.3-natives-linux.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/org.lwjgl.lwjgl/lwjgl-platform/2.9.3/6686cf6ddaa20b4290aa6599a09bc0d17369be05/lwjgl-platform-2.9.3-natives-osx.jar"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/82604cfeb87b9ab70ed70aa19a137de8ceb21504/jinput-2.0.5-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar"/>
+	<classpathentry sourcepath="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/d18678a00b216863206a1bb6190507e02a32971b/jutils-1.0.0-sources.jar" kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/7ff832a6eb9ab6a767f1ade2b548092d0fa64795/jinput-platform-2.0.5-natives-linux.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/385ee093e01f587f30ee1c8a2ee7d408fd732e16/jinput-platform-2.0.5-natives-windows.jar"/>
+	<classpathentry kind="lib" path="/home/victor/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput-platform/2.0.5/53f9c919f34d2ca9de8c51fc4e1e8282029a9232/jinput-platform-2.0.5-natives-osx.jar"/>
+</classpath>
